@@ -9,7 +9,6 @@ interface IEnergiToken {
         uint8 _decimals
     ) external ;
     
-    function setOwner(address  _owner) external;
     function mint(address recipient, uint amount) external;
     function burn(address recipient, uint amount) external;
 }
